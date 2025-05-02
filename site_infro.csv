@@ -1,0 +1,38 @@
+Study,Exp,Site,Range of used years,Used sample size of mixculture (n),Range of richness,Annual rainfall,Plot size,latitude,,longitude,
+Bigbio,Bigbio,"Cedar Creek, US",17,116,"1,2,4,8,16",800,81,45.42,N,-93.18,W
+Wageningen Biodiversity,Wageningen Biodiversity,"Wageningen, NL",11,51,"1,2,4,8",720,1,52.04,N,5.45,E
+Texas Evenness,Texas,"Temple, US",10,18,"1,2,4,8",858,1,31.03,N,-97.21,W
+Agrodiversity,Agr_Belgium,"Merelbeke, BE",3,2,"1,4",780,8.4,50.59,N,3.49,E
+Agrodiversity,Agr_Canada,"L¨¦vis, CA",3,2,"1,4",643,12,46.48,N,-71.1,W
+Agrodiversity,Agr_France,"Auzeville Tolosane, FR",3,2,"1,4",680,6,43.05,N,1.43,E
+Agrodiversity,Agr_Germany (a),"Renningen, DE",3,2,"1,4",693,18,48.46,N,9.11,E
+Agrodiversity,Agr_Iceland (a),"Reykjavik, IS",3,2,"1,4",900,6,64.09,N,-21.45,W
+Agrodiversity,Agr_Iceland (b),"Reykjavik, IS",3,2,"1,4",900,4.5,64.09,N,-21.45,W
+Agrodiversity,Agr_Ireland (a),"Johnstown Castle, IE",3,2,"1,4",1033,16,52.16,N,-6.3,W
+Agrodiversity,Agr_Ireland (e),"Johnstown Castle, IE",3,8,"1,4",1033,16,52.16,N,-6.3,W
+Agrodiversity,Agr_Italy ,"Sassari, IT",3,2,"1,4",1260,24,45.55,N,12.43,E
+Agrodiversity,Agr_Lithuania (a),"Dotnuva, LT",3,2,"1,4",650,47.5,55.24,N,23.5,E
+Agrodiversity,Agr_Lithuania (b),"Dotnuva, LT",3,2,"1,4",650,6.5,55.24,N,23.5,E
+Agrodiversity,Agr_Lithuania (c),"Dotnuva, LT",3,2,"1,4",650,24,55.24,N,23.5,E
+Agrodiversity,Agr_Netherlands,"Wageningen, NL",3,2,"1,4",760,6,51.58,N,5.4,E
+Agrodiversity,Agr_Norway (a),"Saerhaim, NO",3,2,"1,4",1180,12,58.46,N,5.39,E
+Agrodiversity,Agr_Norway (b),"Holt, NO",3,2,"1,4",785,12,59.4,N,10.51,E
+Agrodiversity,Agr_Norway (c),"As, NO",3,2,"1,4",1031,21,69.04,N,18.56,E
+Agrodiversity,Agr_Norway (d),"Loken, NO",3,2,"1,4",576,10.6,61.07,N,9.04,E
+Agrodiversity,Agr_Poland (a),"Brody, PL",3,2,"1,4",587,9,52.26,N,16.18,E
+Agrodiversity,Agr_Spain (a),"Zaragoza, ES",3,2,"1,4",948,8.75,42.13,N,1.39,E
+Agrodiversity,Agr_Sweden (a),"Svalov, SE",3,2,"1,4",700,8.8,56.55,N,13.07,E
+Agrodiversity,Agr_Sweden (b),"Svalov, SE",3,2,"1,4",700,8.8,56.55,N,13.07,E
+Agrodiversity,Agr_Sweden (c),"Pitea, SE",3,2,"1,4",539,19,65.19,N,21.24,E
+Agrodiversity,Agr_Switzerland,"Zurich-Reckenholz, CH",3,2,"1,4",1031,18,47.26,N,8.32,E
+Agrodiversity,Agr_Wales (a),"Aberystwyth, Wales, GB",3,2,"1,4",1038,6,52.26,N,4.01,E
+Agrodiversity,Agr_Wales (b),"Bronydd Mawr, Wales, GB",3,2,"1,4",1500,6,51.57,N,3.37,E
+BIODEPTH,BIODEPTH_DL,"Bayreuth, DE",3,16,"1,2,4",630,4,50,N,12,E
+BIODEPTH,BIODEPTH_GR,"Mytilini, GR",3,6,"1,2",682,4,39,N,27,E
+BIODEPTH,BIODEPTH_Ir,"Riverstick, IE ",3,46,"1,2,3,4,8",1130,4,52,N,-8,W
+BIODEPTH,BIODEPTH_P,"Lezirias, PT",3,28,"1,2,4,8,14",588,4,39,N,9,E
+BIODEPTH,BIODEPTH_SW,"Umea, SE",3,43,"1,2,4,8,12",600,11,64,N,20,E
+BIODEPTH,BIODEPTH_SZ,"Lupsingen, CH",3,14,"1,2",1046,4,47,N,8,E
+BIODEPTH,BIODEPTH_UK1,"Silwood, GB",3,30,"1,2,4,8,12",652,4,51,N,-1,W
+BIODEPTH,BIODEPTH_UK2,"Silwood, GB",3,30,"1,2,4,8,11",788,4,53,N,-1,W
+Jena Experiment ,Jena Experiment ,"Jena, DE",18,35,"1,2,4,8,16",610,"Mixture: 400 (after 2010, 33)",50.95,N,11.62,E
