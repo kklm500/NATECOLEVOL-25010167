@@ -474,7 +474,7 @@ EDfig3a<- ggplot(sim_results_richness_D0)+
   ylab(expression(AE[SpVar]))+
   xlab(expression(CE[Bio]))+
   scale_color_manual(values = c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
-  scale_y_continuous(limits=c(-0.19, 0.6), labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.25, 0.6), labels=scaleFUN)+
   theme_bw()+
   theme(legend.text = element_text(size = 10),
         axis.title.x=element_text(size=12),
@@ -503,7 +503,7 @@ EDfig3c<- ggplot(sim_results_richness_D0)+
   geom_smooth( aes(x = SE, y = pred.EDfig3c, color = as.factor(Richness)), linewidth = 0.8, method = "lm", fill = NA)+
   ylab(expression(SE[SpVar]))+
   xlab(expression(SE[Bio]))+
-  scale_y_continuous(limits=c(-0.15, 0.07), labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.15, 0.1), labels=scaleFUN)+
   scale_color_manual(values =  c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
   #scale_color_tableau()+
   theme_bw()+
@@ -520,7 +520,7 @@ EDfig3d<- ggplot(sim_results_richness_D0)+
   geom_smooth( aes(x = SE, y = pred.EDfig3d, color = as.factor(Richness)), linewidth = 0.8, method = "lm", fill = NA)+
   ylab(expression(SE[Syn]))+
   xlab(expression(SE[Bio]))+
-  scale_y_continuous(limits=c(-0.15, 0.85),labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.15, 0.55),labels=scaleFUN)+
   scale_color_manual(values =  c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
   #scale_color_tableau()+
   theme_bw()+
@@ -540,7 +540,7 @@ EDfig3e<- ggplot(sim_results_richness_D1)+
   ylab(expression(AE[SpVar]))+
   xlab(expression(CE[Bio]))+
   scale_color_manual(values = c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
-  scale_y_continuous(limits=c(-0.19, 0.6), labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.25, 0.6), labels=scaleFUN)+
   theme_bw()+
   theme(legend.text = element_text(size = 10),
         axis.title.x=element_text(size=12),
@@ -570,7 +570,7 @@ EDfig3g<- ggplot(sim_results_richness_D1)+
   geom_smooth( aes(x = SE, y = pred.EDfig3g, color = as.factor(Richness)), linewidth = 0.8, method = "lm", fill = NA)+
   ylab(expression(SE[SpVar]))+
   xlab(expression(SE[Bio]))+
-  scale_y_continuous(limits=c(-0.15, 0.07), labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.15, 0.1), labels=scaleFUN)+
   scale_color_manual(values =  c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
   theme_bw()+
   theme(legend.text = element_text(size = 10),
@@ -586,7 +586,7 @@ EDfig3h<- ggplot(sim_results_richness_D1)+
   geom_smooth( aes(x = SE, y = pred.EDfig3h, color = as.factor(Richness)), linewidth = 0.8, method = "lm", fill = NA)+
   ylab(expression(SE[Syn]))+
   xlab(expression(SE[Bio]))+
-  scale_y_continuous(limits=c(-0.15, 0.85),labels=scaleFUN)+
+  scale_y_continuous(limits=c(-0.15, 0.55),labels=scaleFUN)+
   scale_color_manual(values =  c("#E1E1E1","#B1B1B1","#B1B1B1","#A3A3A3","#777C7A","#575957","#404241","#222422","#0A0A0A"))+
   theme_bw()+
   theme(legend.text = element_text(size = 10),
