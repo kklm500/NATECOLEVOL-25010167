@@ -1,7 +1,7 @@
 #The function used to calculate the biodiversity effect of interspecific interaction on community variability
 #matrix input
 #X_mix is the observed community
-#X_mono is the hypothetical community; note that, such as in grassland experiments, the hypothetical species biomass should be miu_mono = 1/n*miu_mix
+#X_mono is the hypothetical/expected community; note that, such as in grassland experiments, the hypothetical species biomass should be miu_mono = 1/n*miu_mix
 #columns is time series, rows is species
 # Note: covariance is calculated by n-1 (estimate from a sample) in cor()
 variability_partition<- function(X_mono,X_mix){
@@ -73,6 +73,7 @@ variability_partition<- function(X_mono,X_mix){
 ### The function used to calculate the biodiversity effect on community biomass
 ### we used an alternative definition of net biodiversity effect by the ratio of mixture and monoculture biomass, see Method
 ### NBE= miu_O/ miu_E= 1+ CE +SE
+### Before running this BEF partitioning, please define the species number n
 BEF<- function(X_mono,X_mix){
   miu_O<- colMeans(X_mix)
   miu_E<- colMeans(X_mono)
